@@ -5,58 +5,62 @@
 	:heavy_check_mark:  NextLevelWeek 5 🚀 :heavy_check_mark:
 </h4>
 
-## Podcastr
+## 💻 Projeto - Podcastr
 
-[![Author](https://img.shields.io/badge/author-SantanaDeveloper-8257E5?style=flat-square)](https://github.com/SantanaDeveloper)
+[![Author](https://img.shields.io/badge/Author-SantanaDeveloper-8257E5?style=flat-square)](https://github.com/SantanaDeveloper)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-joaopaulosant-8257E5?style=flat-square)](https://www.linkedin.com/in/joaopaulosant/)
 [![Languages](https://img.shields.io/github/languages/count/SantanaDeveloper/podcastr-nlw-5?color=%238257E5&style=flat-square)](#)
 [![Stars](https://img.shields.io/github/stars/SantanaDeveloper/podcastr-nlw-5?color=8257E5&style=flat-square)](https://github.com/SantanaDeveloper/podcastr-nlw-5/stargazers)
 
 <h4 align="center">
-  Podcastr é uma plataforma web construída para a transmissão de podcasts
+Podcastr é uma plataforma construída para transmissão de podcast.
 </h4>
 
 ![Podcastr preview](.github/app-preview.png)
 
-## Tecnologies
+## ✨ Tecnologias
 
 <div align="center">
   <br />
   <img src=".github/tech-logos.png" alt="Technologies used">
 </div>
 
-This project was developed using cutting edge front-end technologies.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [ReactJS](https://reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Next.js](https://nextjs.org/)
 
-## 💻 Getting started
+## 🚀 Como executar
 
-### Requirements
+### Requisitos
 
-- You need to install both [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/) to run this project.
+- Você precisa instalar [Node.js](https://nodejs.org/en/download/) e o [Yarn](https://yarnpkg.com/) para executar este projeto.
 
-**Clone the project and access the folder**
+**Clone o projeto e acesse a pasta**
 
 ```bash
 $ git clone https://github.com/SantanaDeveloper/podcastr-nlw-5.git && cd podcastr-nlw-5
 ```
 
-**Follow the steps below**
+**Siga os passos abaixo**
 
 ```bash
-# Install the dependencies
+# Instale as dependências
 $ yarn
 
-# Run the web server
+# Execute o servidor
 $ yarn dev
 ```
 
-The app will be available for access on your browser at `http://localhost:3000`
+O aplicativo estará disponível para acesso em seu navegador em `http://localhost:3000`
+
+## 📄 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
 
 <div align="center">
   <img src=".github/podcastr-logo.svg" alt="Podcastr logo">
-</div><br />
-João Paulo 👋 [Confira meu LinkedIn](https://www.linkedin.com/in/joaopaulosant/5)
+</div>
