@@ -6,6 +6,7 @@ import { ptBR } from "date-fns/locale";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { convertDurationToTimeString } from "../../utils/convertDurationToTimeString";
 import styles from "./episode.module.scss";
+import { useRouter } from "next/router";
 
 type Episode = {
   id: string;
@@ -65,8 +66,22 @@ const Episode = ({ episode }: EpisodeProps) => {
 export default Episode;
 
 export const getStaticPaths: GetStaticPaths = async () => {
+  const { data } = await api.get("episodes", {
+    params: {
+      __limit: 2,
+      __sort: "published_at",
+      __order: "desc",
+    },
+  });
+
+  const paths = data.map((episode) => ({
+    params: {
+      slug: episode.id,
+    },
+  }));
+
   return {
-    paths: [],
+    paths,
     fallback: "blocking",
   };
 };
