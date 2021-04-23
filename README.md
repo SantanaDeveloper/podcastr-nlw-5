@@ -53,7 +53,7 @@ $ yarn
 $ yarn dev
 
 # Em outra aba do terminal execute a api fake
-$ yarn serve
+$ yarn server
 ```
 
 O aplicativo estará disponível para acesso em seu navegador em `http://localhost:3000`
